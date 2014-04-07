@@ -2,8 +2,14 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
-POST    /subscribe                  controllers.LogController.subscribe
-POST    /unsubscribe                controllers.LogController.unsubscribe
+POST    /logs/subscribe                  controllers.LogController.subscribe
+POST    /logs/unsubscribe                controllers.LogController.unsubscribe
+
+
+# API Documentation
+GET     /                                controllers.ApiDocController.view
+GET     /api                             controllers.ApiHelpController.getResources
+GET     /api/logs                        controllers.ApiHelpController.getResource(path = "/logs")
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
