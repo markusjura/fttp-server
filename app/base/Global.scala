@@ -1,7 +1,7 @@
 package base
 
-import play.api._
 import controllers.LogController
+import play.api._
 import models.Log
 import play.api.libs.concurrent.Akka
 import play.api.libs.json.Json

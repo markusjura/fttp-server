@@ -3,6 +3,9 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DeleteUselessSourceAdvisor">
+    <option name="SHOULD_OFFER_DELETE_SOURCES" value="false" />
+  </component>
   <component name="IdProvider" IDEtalkID="0A7AB7A9EA8DD85FC6DE992ED4F9EDAF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
